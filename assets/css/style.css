@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-/* Note: Rather than keeping <div class="header"></div> I replaced div and the header class with 'header' as the element (deleting the . before each of the six items below to reflect that change) */
+/* I replaced div and the header class with 'header' as the element */
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,40 +16,41 @@ header {
   color: #ffffff;
 }
 
-header h1 {
+h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-header h1 .seo {
+h1 .seo {
   color: #d9dcd6;
 }
 
-header nav {
-  padding-top: 15px;
+nav {
+  padding: 15px;
   margin-right: 20px;
   float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
 
-header nav ul {
+nav ul {
   list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
   display: inline-block;
   margin-left: 25px;
+  
 }
 
-/* Note: I replaced div with nav to give it a more semantic element (reflecting that change with the 3 items above and the 1 item below) I worked on nav hover state and aesthetics. Mainly based on my own personal preference. I like the way the border-radius rounds the edges. I like that the border animates it a bit without being too fancy. I also noticed that the "Search Engine Optimization" link did not work correctly because it did not have a proper id in html */
+/* I replaced div with nav to give it a more semantic element (reflecting that change with the 3 items above and the 1 item below) I worked on nav hover state. I noticed that the "Search Engine Optimization" link did not work correctly because it did not have a proper id in html */
 nav a:hover {
   color: #2a607c;
   background-color: #ffffff;
   cursor: pointer;
   border-radius: 20px;
-  border: 10px #ffffff solid;
-  font-size: 20px;
+  border: 2px #ffffff solid;
+  
   }
 
 a {
@@ -61,7 +62,7 @@ p {
   font-size: 16px;
 }
 
-/* Note: I replaced the div element partnered with class="hero" and made it a header element to give it a more semantic element. (<header class="hero"></header>) */
+/* I replaced the div element partnered with class="hero" and made it a header element to give it a more semantic element. (<header class="hero"></header>) */
 .hero {
   height: 800px;
   width: 100%;
@@ -98,7 +99,7 @@ p {
   background-color: #2589bd;
 }
 
-/* Note: I refactored the code to these 3 below considering they all have identical specs */
+/* I refactored the code to 3 below considering they all have identical specs */
 .benefit-brand,
 .benefit-cost,
 .benefit-lead {
@@ -106,7 +107,7 @@ p {
   color: #ffffff;
 }
 
-/* Note: I refactored the code to these 3 below considering they all have identical specs */ 
+/* I refactored the code to 3 below considering they all have identical specs */ 
 .benefit-brand h3,
 .benefit-cost h3,
 .benefit-lead h3 {
@@ -114,7 +115,7 @@ p {
   text-align: center;
 }
 
-/* Note: I refactored the code to these 3 below considering they all have identical specs */ 
+/* I refactored the code to 3 below considering they all have identical specs */ 
 .benefit-brand img,
 .benefit-cost img,
 .benefit-lead img {
@@ -123,7 +124,7 @@ p {
   max-width: 150px;
 }
 
-/* Note: I refactored the code to these 3 below considering they all have identical specs */ 
+/* I refactored the code to 3 below considering they all have identical specs */ 
 .social-media-marketing,
 .online-reputation-management,
 .search-engine-optimization {
@@ -135,14 +136,14 @@ p {
   color: #ffffff;
 }
 
-/* Note: I refactored the code to these 3 below considering they all have identical specs */
+/* I refactored the code to 3 below considering they all have identical specs */
 .social-media-marketing img,
 .online-reputation-management img,
 .search-engine-optimization img {
   max-height: 200px;
 }
 
-/* Note: I refactored the code to these 3 below considering they all have identical specs */
+/* I refactored the code to 3 below considering they all have identical specs */
 .social-media-marketing h2,
 .online-reputation-management h2,
 .search-engine-optimization h2 {
@@ -150,13 +151,14 @@ p {
   font-size: 36px;
 }
 
-.footer {
+/* Deleted footer class and left footer element */
+footer {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
