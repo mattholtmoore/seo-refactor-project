@@ -1,4 +1,5 @@
 # **Horiseon**
+***
 
 ## Table of Contents
 1. [Description](#description)  
@@ -10,7 +11,7 @@
 ## Description
 On this site, I improved it's overall accessibilty and formatting issues. I made sure all links work. I consolidated the CSS by refactoring the code and eliminating excessive duplicate line items. I edited HTML by choosing more semantic elements to replace div elements since they hold no specific value. Better for SEO experience. I made sure that all images have alt attributes and I created a desriptive title. I have made the site content more readible and succinct within HTML and CSS by implementing these changes.
 
-
+***
 
 ## Links
 [Link to Horiseon](https://mattholtmoore.github.io/seo-refactor-project/)
@@ -20,6 +21,7 @@ On this site, I improved it's overall accessibilty and formatting issues. I made
 
 ## Visuals
 ![homepage](assets/images/homepage.png "homepage image")
+***
 
 ## Usage
 **Horiseon** is a social solutions service specializing in search engine optimization, online reputation management and social media marketing.
