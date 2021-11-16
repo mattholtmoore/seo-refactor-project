@@ -4,6 +4,7 @@
 1. [Description](#description)  
 2. [Links](#links)  
 3. [Visuals](#visuals)  
+4. [Usage](#usage)  
 ***
 
 ## Description
@@ -20,7 +21,8 @@
 ![screencap](assets/images/ScreenshotOne%20.png "background image")
 ![screencap](assets/images/ScreenShotTwo.png "body of image")
 
-
+## Usage
+This website is used for clients who are looking for support in managing and leveraging their online traction and momentum. Here they will become more successful in their online presence. 
 
 
 
