@@ -4,7 +4,6 @@
 1. [Description](#description)  
 2. [Links](#links)  
 3. [Visuals](#visuals)  
-4. [Usage](#usage)  
 ***
 
 ## Description
@@ -21,7 +20,6 @@
 ![screencap](assets/images/ScreenshotOne%20.png "background image")
 ![screencap](assets/images/ScreenShotTwo.png "body of image")
 
-## Usage
 
 
 
