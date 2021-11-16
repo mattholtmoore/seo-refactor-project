@@ -19,8 +19,7 @@ On this site, I improved it's overall accessibilty and formatting issues. I made
 ***
 
 ## Visuals
-![screencap](assets/images/ScreenshotOne%20.png "background image")
-![screencap](assets/images/ScreenShotTwo.png "body of image")
+![homepage](assets/images/homepage.png "homepage image")
 
 ## Usage
 **Horiseon** is a social solutions service specializing in search engine optimization, online reputation management and social media marketing.
